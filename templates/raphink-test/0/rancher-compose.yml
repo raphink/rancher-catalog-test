@@ -1,0 +1,14 @@
+---
+version: "2"
+.catalog:
+  name: "raphink-test"
+  version: "v1.0.0"
+  description: "Raphink Test"
+  uuid: pgbouncer-0
+  minimum_rancher_version: v1.0.0
+  questions:
+    - variable: "PASSWORD"
+      label: "Password"
+      description: "Password"
+      type: "secret"
+      required: true
