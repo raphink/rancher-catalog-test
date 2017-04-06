@@ -2,3 +2,10 @@ version: "2"
 services:
   web:
     image: tutum/hello-world
+    secrets:
+    - uid: '0'
+      gid: '0'
+      mode: '444'
+      name: MYPASS
+      secretId: ${SECRET}
+

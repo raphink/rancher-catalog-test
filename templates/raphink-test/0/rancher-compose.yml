@@ -7,7 +7,7 @@ version: "2"
   uuid: pgbouncer-0
   minimum_rancher_version: v1.0.0
   questions:
-    - variable: "PASSWORD"
+    - variable: "SECRET"
       label: "Password"
       description: "Password"
       type: "secret"
